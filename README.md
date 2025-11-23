@@ -84,13 +84,5 @@ Enter Initial Balance: 5000
 
 ## 👤 Author
 
-Gnapika
+Gnapika \n
 Focused, methodical, and resourceful — blending precision with dignity.
-
-## Commit and push:  
-
-  git add README.md
-  git commit -m "Update README with run command"
-  git push
-
-
