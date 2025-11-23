@@ -56,6 +56,7 @@ banking-system-jdbc/
 ##   ▶️ Run Command
 ```cmd
 java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
+```
 
 ## 📋 Features
 
