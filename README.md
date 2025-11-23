@@ -59,7 +59,6 @@ java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 ```cmd
 java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 ```
->>>>>>> d80c96f266fedb2442a35355f04039b6343fad0b
 
 ## 📋 Features
 
@@ -72,7 +71,6 @@ java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 ## 🧪 Example Usage
 
 ```cmd
->>>>>>> d80c96f266fedb2442a35355f04039b6343fad0b
 🏦 Banking System Menu
 1. Create Account
 2. Deposit
