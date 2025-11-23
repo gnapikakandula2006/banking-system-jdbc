@@ -84,5 +84,5 @@ Enter Initial Balance: 5000
 
 ## 👤 Author
 
-Gnapika \n
+Gnapika - 
 Focused, methodical, and resourceful — blending precision with dignity.
