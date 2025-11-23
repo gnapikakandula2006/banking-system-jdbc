@@ -67,7 +67,7 @@ java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 - Data stored persistently in MySQL
 
 ## 🧪 Example Usage
-
+```cmd
 🏦 Banking System Menu
 1. Create Account
 2. Deposit
@@ -79,7 +79,7 @@ Enter Account No: 1001
 Enter Name: Gnapika
 Enter Initial Balance: 5000
 ✔ Account created successfully!
-
+```
 
 
 ## 👤 Author
