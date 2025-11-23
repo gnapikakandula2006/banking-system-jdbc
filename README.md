@@ -54,7 +54,7 @@ banking-system-jdbc/
    javac --release 17 -cp lib\mysql-connector-j-9.0.0.jar -d bin src\Main.java src\dao\BankDAO.java src\model\Account.java src\util\DBConnection.java
 
 ##   ▶️ Run Command
-
+```cmd
 java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 
 ## 📋 Features
