@@ -54,10 +54,8 @@ banking-system-jdbc/
    javac --release 17 -cp lib\mysql-connector-j-9.0.0.jar -d bin src\Main.java src\dao\BankDAO.java src\model\Account.java src\util\DBConnection.java
 
 ##   ▶️ Run Command
-<<<<<<< HEAD
-
 java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
-=======
+
 ```cmd
 java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 ```
@@ -72,9 +70,7 @@ java -cp bin;lib\mysql-connector-j-9.0.0.jar Main
 - Data stored persistently in MySQL
 
 ## 🧪 Example Usage
-<<<<<<< HEAD
 
-=======
 ```cmd
 >>>>>>> d80c96f266fedb2442a35355f04039b6343fad0b
 🏦 Banking System Menu
@@ -88,26 +84,9 @@ Enter Account No: 1001
 Enter Name: Gnapika
 Enter Initial Balance: 5000
 ✔ Account created successfully!
-<<<<<<< HEAD
-
-=======
-```
->>>>>>> d80c96f266fedb2442a35355f04039b6343fad0b
 
 
 ## 👤 Author
 
-<<<<<<< HEAD
 Gnapika
 Focused, methodical, and resourceful — blending precision with dignity.
-
-## Commit and push:  
-
-  git add README.md
-  git commit -m "Update README with run command"
-  git push
-
-=======
-Gnapika - 
-Focused, methodical, and resourceful — blending precision with dignity.
->>>>>>> d80c96f266fedb2442a35355f04039b6343fad0b
