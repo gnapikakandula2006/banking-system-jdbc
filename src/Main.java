@@ -20,32 +20,50 @@ public class Main {
 
             switch (choice) {
                 case 1 -> {
-                    System.out.print("Enter Acc No, Name, Balance: ");
+                    System.out.print("Enter Acc No: ");
                     int accNo = sc.nextInt();
+
+                    System.out.print("Enter Name: ");
                     String name = sc.next();
+
+                    System.out.print("Enter Balance: ");
                     double balance = sc.nextDouble();
+
                     Account acc = new Account(accNo, name, balance);
                     dao.createAccount(acc);
                     System.out.println("✅ Account created successfully!");
                 }
                 case 2 -> {
-                    System.out.print("Enter Acc No and Amount: ");
-                    dao.deposit(sc.nextInt(), sc.nextDouble());
+                    System.out.print("Enter Acc No: ");
+                    int accNo = sc.nextInt();
+
+                    System.out.print("Enter Amount: ");
+                    double amount = sc.nextDouble();
+
+                    dao.deposit(accNo, amount);
                     System.out.println("✅ Deposit successful!");
                 }
                 case 3 -> {
-                    System.out.print("Enter Acc No and Amount: ");
-                    dao.withdraw(sc.nextInt(), sc.nextDouble());
+                    System.out.print("Enter Acc No: ");
+                    int accNo = sc.nextInt();
+
+                    System.out.print("Enter Amount: ");
+                    double amount = sc.nextDouble();
+
+                    dao.withdraw(accNo, amount);
+                    System.out.println("✅ Withdrawal successful!");
                 }
                 case 4 -> {
                     System.out.print("Enter Acc No: ");
-                    dao.checkBalance(sc.nextInt());
+                    int accNo = sc.nextInt();
+
+                    dao.checkBalance(accNo);
                 }
                 case 5 -> {
                     System.out.println("👋 Exiting Banking System...");
                     System.exit(0);
                 }
-                default -> System.out.println("❌ Invalid choice.");
+                default -> System.out.println("❌ Invalid choice. Please try again.");
             }
         }
     }
